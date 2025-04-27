@@ -6,6 +6,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+.header{
+   background-image: url(./images/developer.png), url(./images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: top left,bottom right;
+
+}
 span{
     color: #FD6E0A;
 }
@@ -25,6 +31,17 @@ span{
     margin-right: 50px;
 
  }
+ .banner-content{
+   max-width: 580px;
+ }
+ .banner{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 35px 0 200px;
+ }
+ .banner-profile-pic{
+width: 580px;
+ }
 
  .btn-primery{
     background-color: #FD6E0A;
@@ -33,6 +50,7 @@ span{
     color: white;
     padding: 18px;
     border-radius: 5px;
+    border: none;
  }
  nav li a{
     text-decoration: none;
